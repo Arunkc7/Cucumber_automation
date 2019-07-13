@@ -58,7 +58,7 @@ public class Search {
     public void user_searched_for(String vegetable) throws Throwable {
 		h = new HomePageGC(driver);
 		h.get_search().sendKeys(vegetable);
-		System.out.println("test");
+		System.out.println("test1");
 		Thread.sleep(2000);
     }
     
